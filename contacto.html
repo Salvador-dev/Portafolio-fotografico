@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#34435a" />
+    <title>Ángel Olarte Fotografía</title>
+    <link rel="shortcut icon" href="pagina/iconos/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<script defer src="menu.js"></script>
+</head>
+<body>
+    <header>
+        <!--<h1>Ángel Olarte Fotografía</h1>
+        <h2>Guarenas-Guatire-Caracas</h2>-->
+        <nav>
+            <a href="index.html"><div class="click"></div></a>
+            <ul class="menu">
+                <li><a href="index.html" >Inicio</a></li>
+                <li><a href="retratos.html">Retratos</a></li>
+                <li><a href="gastronomia.html">Gastronomía-Productos</a></li>
+                <li><a href="publicidad.html" >Publicidad</a></li>
+                <li><a href="quiensoy.html">Quién soy</a></li>
+                <li><a href="contacto.html" style="color: #f9b903;">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <input type="checkbox" id="menu">
+        <label for="menu"><img src="pagina/iconos/menu.png" width="60px"></label>
+
+    </header>
+
+    
+    <section class="contenedor">
+        <h3>Contacto</h3>
+        <img src="pagina/fotografía/gastronomia-productos/barrica2.jpg" alt="">
+        <div><p><b>Telefono:</b> 0424-1743597</p>   
+        <p><b>Email:</b> angelolartefotografia@gmail.com</p></div>
+
+            <a href="https://api.whatsapp.com/message/3FMW72KQUBALD1" class="redes"><img src="pagina/iconos/wha.png" alt=""> <h4> Haz click aqui para contactarme por Whatsapp</h4></a>
+            <a href="https://www.instagram.com/angelolarte_fotografia/" class="redes"><img src="pagina/iconos/ig.png" alt=""><h4> Haz click aquí para seguirme en Instagram</h4></a>
+
+            <form action="correo.php" class="contacto" method="POST">
+                <p>Puedes enviarme un correo para pedir una cotización o escribirme por WhastApp</p>
+                <div class="input">
+                <input type="text" name="name" id="name" placeholder="Nombre" required="">
+                <input type="email" name="mail" id="mail" placeholder="Correo" required="">
+                <input type="text" name="phone" id="phone" placeholder="Telefono" >
+               </div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Escribe aqui tu mensaje" required=""></textarea>
+                <input class="submit" type="submit" name="enviar">         
+              </form>
+             
+        
+
+    </section>
+
+
+
+   
+  
+    
+</body>
+</html>
